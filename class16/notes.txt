@@ -1,0 +1,9 @@
+Most nix commands have super short names, which makes them quick to type but annoying to learn. Major file system realted commands include:
+	pwd: print working directory
+	ls: list files and directories
+	cd: change directory
+	mkdir: make a new directory
+	rm: remove files and directories (delete)
+	cp: copy files (source>destination)
+	mv: move files or dirs (basically re-name)
+	nano: a wee text editor (very basic but always available)
