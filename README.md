@@ -11,9 +11,10 @@ This is my repository for my Bioinformatics class from UC San Diego W26.
 ## Class 04
 
 -- [Class 04file](https://github.com/ked006/bimm143_github/blob/1ce88e96a4b7dbea849637accb635bd0724f9735/class04/class04gfm1.md)
-[clas021](https://github.com/ked006/bimm143_github/blob/32814f8fd61350352228c2f5cf0ee1fb7559a0fa/class04/class04.html)
+
 ## Class 05
 -- [Class 05file](https://github.com/ked006/bimm143_github/blob/cba445d4e669c7a925be5091c2e5aa89f9b35691/class05/CLASS05.md)
+
 ## Class 06
 
 -- [Class 06file](https://github.com/ked006/bimm143_github/blob/cba445d4e669c7a925be5091c2e5aa89f9b35691/class06/class06.md)
@@ -28,8 +29,10 @@ This is my repository for my Bioinformatics class from UC San Diego W26.
 
 ## Class 09
 -- [Class 09file](https://github.com/ked006/bimm143_github/blob/cba445d4e669c7a925be5091c2e5aa89f9b35691/class09mini/class09miniproject/Kenny%20Dang%20-%20class09mini.md)
+
 ## Class 10
 -- [Class 10file](https://github.com/ked006/bimm143_github/blob/cba445d4e669c7a925be5091c2e5aa89f9b35691/class010/class10RCSB/Kenny%20Dang%20-%20class010.md)
+
 ## Class 11
 
 -- [Class 11file](https://github.com/ked006/bimm143_github/blob/cba445d4e669c7a925be5091c2e5aa89f9b35691/class011/class011%20lab/class11.md)
