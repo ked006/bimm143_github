@@ -35,5 +35,70 @@ The core steps to using git involve
 You can check your project "history" and status
    `git status`
    `git log` (push Q to exit)
-      
-      
+   
+   
+   
+```{r}
+sessionInfo()
+```
+
+
+Most nix commands have super short names, which makes them quick to type but annoying to learn. Major file system realted commands include:
+	pwd: print working directory
+	ls: list files and directories
+	cd: change directory
+	mkdir: make a new directory
+	rm: remove files and directories (delete)
+	cp: copy files (source>destination)
+	mv: move files or dirs (basically re-name)
+	nano: a wee text editor (very basic but always available)
+	curl: Download files from web of ftp
+	wget: download files from the web
+	tar -zxvf: untar (unpackage) Tar archive files
+	gunzip: Unzip files
+	$PATH: the places (dirs to look for programs)
+
+
+## AWS EC2 Instance
+
+Connect to my instance with:
+
+ssh -i ~/Downloads/bimm143_kenny.pem ubuntu@ec2-52-38-208-66.us-west-2.compute.amazonaws.com
+
+
+
+blastp -query mm-first.fa -db zebrafish.1.protein.faa -out mm-first.x.zebrafish.txt
+
+
+Secure Copy files between machines, in this case from our instance to our laptop
+
+scp -i ~/Downloads/bimm143_kenny.pem ubuntu@ec2-52-38-208-66.us-west-2.compute.amazonaws.com:
+
+
+
+## Class 17 instance
+copy and paste new ssh link 
+
+chmod 400 "bimm143_kenny.pem"
+
+ssh -i "bimm143_kenny.pem" ubuntu@ec2-35-90-1-200.us-west-2.compute.amazonaws.com
+
+
+export KEY=~/Downloads/bimm143_kenny.pem
+export SERVER=ubuntu@ec2-35-90-1-200.us-west-2.compute.amazonaws.com
+
+#Run the variables:
+echo $KEY
+echo $SERVER
+
+
+## MUST RUN THESE TWO COMMANDS AGAIN IF CLOSE TERMINAL
+export KEY=~/Downloads/bioinf_barry.pem
+export SERVER=ubuntu@ec2-34-210-54-74.us-west-2.compute.amazonaws.com
+
+# Connect to your instance
+ssh -i $KEY $SERVER
+
+# Transfer results.tsv back to your current directory
+scp -r -i $KEY $SERVER:~/results.tsv .
+

@@ -1,0 +1,72 @@
+---
+title: "heatmap"
+format: html
+---
+
+```{r}
+library(bio3d)
+library(pheatmap)
+
+ali <- read.fasta("rbp4_clean.fasta")
+x <- ali$ali
+
+n <- nrow(x)
+id.mat <- matrix(0, n, n)
+rownames(id.mat) <- rownames(x)
+colnames(id.mat) <- rownames(x)
+
+for (i in 1:n) {
+  for (j in 1:n) {
+    id.mat[i, j] <- sum(x[i, ] == x[j, ]) / ncol(x)
+  }
+}
+
+rownames(id.mat) <- gsub("_", " ", rownames(id.mat))
+colnames(id.mat) <- gsub("_", " ", colnames(id.mat))
+
+pdf("rbp4_heatmap1.pdf", width = 9, height = 8)
+
+pheatmap(
+  id.mat,
+  display_numbers = TRUE,
+  number_format = "%.2f",
+  color = colorRampPalette(c("orange", "orangered", "yellow"))(100),
+  cluster_rows = TRUE,
+  cluster_cols = TRUE,
+  border_color = "grey70",
+  fontsize = 12,
+  fontsize_number = 10,
+  main = "RBP4 Sequence Identity Heatmap",
+  angle_col = 270
+)
+
+dev.off()
+```
+
+
+
+
+```{r}
+library(bio3d)
+
+ali <- read.fasta("rbp4_clean.fasta")
+
+query <- paste(ali$ali["Human_RBP4", ], collapse = "")
+query <- gsub("-", "", query)
+
+bl <- blast.pdb(query)
+
+head(bl$hit)
+
+unique_hits <- bl$hit[!duplicated(bl$hit$pdb.id), ]
+
+top3 <- unique_hits[1:10, c("pdb.id", "identity", "evalue")]
+
+top3
+
+ann <- pdb.annotate(top3$pdb.id)
+
+ann[, c("structureId", "experimentalTechnique", "resolution", "source")]
+```
+
+
