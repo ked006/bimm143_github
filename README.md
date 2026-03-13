@@ -6,7 +6,7 @@ This is my repository for my Bioinformatics class from UC San Diego W26.
 
 [website](https://github.com/ked006/bimm143_github)
 
--- Table of Contents
+## TABLE OF CONTENTS
 
 ## Class 04
 
