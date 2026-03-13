@@ -8,6 +8,16 @@ This is my repository for my Bioinformatics class from UC San Diego W26.
 
 ## TABLE OF CONTENTS
 
+## Class 01
+-- [Class01file](https://github.com/ked006/bimm143_github/blob/9e4e61fd540370e88c26f7756d985ad4afea52f3/class01/Kenny%20Dang%20-%20BIMM%20143%20L1.pdf)
+
+## Class 02
+-- [Class02file](https://github.com/ked006/bimm143_github/blob/9e4e61fd540370e88c26f7756d985ad4afea52f3/class02/Kenny%20Dang%20-%20BIMM%20143%20L2.pdf)
+
+## Class 03
+-- [Class03file](https://github.com/ked006/bimm143_github/blob/9e4e61fd540370e88c26f7756d985ad4afea52f3/class03/Kenny%20Dang%20--%20BIMM%20143%20L3.pdf)
+
+
 ## Class 04
 
 -- [Class 04file](https://github.com/ked006/bimm143_github/blob/1ce88e96a4b7dbea849637accb635bd0724f9735/class04/class04gfm1.md)
@@ -51,7 +61,7 @@ This is my repository for my Bioinformatics class from UC San Diego W26.
 
 ## Class 15
 
--- uploaded github repository url
+-- [uploaded github repository url](https://github.com/ked006/bimm143_github)
 
 ## Class 16
 
