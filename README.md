@@ -7,7 +7,7 @@ https://github.com/ked006/bimm143_github
 
 ## Class 04
 
-[Class 04] (class04/class04gfm1.html)
+[Class 04](https://github.com/ked006/bimm143_github/tree/a29acda16bd6a28ab8c3d3a0e83e77037e82f7d1/class04)
 ## Class 05
 
 ## Class 06
