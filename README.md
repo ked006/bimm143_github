@@ -1,6 +1,8 @@
 # bimm143_github
 my classwork from [BIMM143](https://bioboot.github.io/bimm143_W26/) at UC San Diego 
 
+This is my repository for my Bioinformatics class from UC San Diego W26.
+
 
 [website](https://github.com/ked006/bimm143_github)
 
