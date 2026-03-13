@@ -4,16 +4,13 @@ my classwork from [BIMM143](https://bioboot.github.io/bimm143_W26/) at UC San Di
 
 )https://github.com/ked006/bimm143_github)
 
+-- Table of Contents
 
 ## Class 04
 
-[Class 04](https://github.com/ked006/bimm143_github/tree/a29acda16bd6a28ab8c3d3a0e83e77037e82f7d1/class04)
-
-[Class 04gfmfile](https://github.com/ked006/bimm143_github/blob/fbac26c8241ea7cf9a42e529fe242aa626ebe934/class04/class04gfm1.qmd)
-
-
+-- [Class 04file] (https://github.com/ked006/bimm143_github/blob/1ce88e96a4b7dbea849637accb635bd0724f9735/class04/class04gfm1.md)
 ## Class 05
-
+-- Cla
 ## Class 06
 
 ## Class 07
