@@ -1,0 +1,78 @@
+---
+title: "Class 19: Mutation Project"
+auuthor: "Kenny (PID: A18544481)"
+format: html
+---
+
+I downloaded my sequences and loaded them onto my working/project directory. 
+
+I ran a BLASTp search against REFSEQ_Protein filtered to human only: JOB ID: 
+
+
+job title: healthy WT
+RID: V39DACND014
+-- Official symbol:TP53
+-- Official full name: tumor protein p53
+protein coding --> gene type
+
+
+> Q2. What are the tumor specific mutations in this particular case (e.g. A130V)?
+
+The tumor specific mutations are at: L137V, V147E, S185R, P190Y
+
+
+```{r}
+library (bio3d)
+
+a <- read.fasta("A18544481_mutant_seq.fa")
+```
+
+```{r}
+attributes(a)
+```
+
+```{r}
+a$ali
+```
+
+
+We can score conservation per sequence position
+```{r}
+score <- conserv(a)
+mutation.position <- which( score != 1)
+mutation.position
+```
+
+```{r}
+a$ali[, 137]
+
+a$ali[, 147]
+
+a$ali[, 185]
+
+a$ali[, 190]
+```
+
+```{r}
+paste0(a$ali[1, mutation.position],
+       mutation.position,
+       a$ali[2, mutation.position])
+```
+
+
+
+
+What PFAM domain do these mutations reside in?
+
+We can use HMMER at the EBI (if it works) to find this information:
+
+OR we can use UniProt 
+
+> Q3. Do your mutations cluster to any particular domain and if so give the name and
+PFAM id of this domain? Alternately note whether your protein is single domain and provide
+it’s PFAM id/accession and name (e.g. PF00613 and PI3Ka).
+
+
+
+
+
