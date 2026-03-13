@@ -1,7 +1,7 @@
 ---
 title: "Pathway Analysis from RNA-Seq Results"
 author: "Kenny Dang (PID: A18544481)"
-format: pdf
+format: gfm
 toc: true
 ---
 

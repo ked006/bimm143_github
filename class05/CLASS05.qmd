@@ -1,7 +1,7 @@
 ---
 title: "CLASS 5 DATA VIZ WITH GGPLOT"
 author: "KENNY DANG (PID:A18544481)"
-format: pdf
+format: gfm
 toc: true 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "CLASS08 BREAST CANCER MINI PROJECT"
 author: "Kenny Dang" 
-format: pdf
+format: gfm
 toc: true
 ---
 

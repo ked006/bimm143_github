@@ -1,6 +1,6 @@
 ---
 title: "heatmap"
-format: html
+format: gfm
 ---
 
 ```{r}

@@ -1,7 +1,7 @@
 ---
 title: "HW Class 6 (R Functions)"
 author: "Kenny Dang (PID:A18544481)"
-format: pdf
+format: gfm
 toc: true
 ---
 

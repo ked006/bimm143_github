@@ -1,7 +1,7 @@
 ---
 title: "Class 18: Pertussis Mini Project"
 author: "Kenny Dang (PID: A18544481)"
-format: pdf
+format: gfm
 ---
 
 ## Background

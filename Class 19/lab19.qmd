@@ -1,7 +1,7 @@
 ---
 title: "Class 19: Mutation Project"
 auuthor: "Kenny (PID: A18544481)"
-format: html
+format: gfm
 ---
 
 I downloaded my sequences and loaded them onto my working/project directory. 
